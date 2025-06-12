@@ -16,8 +16,8 @@ var (
  */
 func main() {
 	fmt.Println("Hello, Go!")
-	var name string = "zhangsan"
-	fmt.Println(name)
+	var name string
+	fmt.Println(name, name == "")
 	// var age int = 18
 	// var age = 18
 	age := 1
